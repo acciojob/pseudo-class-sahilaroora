@@ -5,13 +5,13 @@ Before Text - This is the main content. - After Text
 }
 
 #container::before {
-  content: "Before Text - ";
+  content: "Before Text ";
   color: #f00;
   font-size: 20px;
 }
 
 #container::after {
-  content: " - After Text";
+  content: " After Text";
   color: #f00;
   font-size: 20px;
 }
